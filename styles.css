@@ -7,7 +7,20 @@ body {
     min-width: 100%;
     height: 100;
 }
-header {
+.menue ul {
     text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;
+    gap: 1em;
+    list-style-type: none;
+}
+.menue {
     border-bottom: 0.25em solid rgb(158, 223, 217);
+}
+main {
+    margin: 2rem;
 }
