@@ -54,5 +54,6 @@ body {
 
 /* aside Start */
 .editors-picked {
+    display: flex;
 }
 /* aside End */
