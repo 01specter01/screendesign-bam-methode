@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 /* Header Start */
@@ -45,18 +45,14 @@ body {
     transform: rotate(90deg);
 }
 /* main Start */
-main {
-    margin: 2rem;
-}
-.content-wrapper {
-    max-width: 200px;
-    padding: 20px;
-    margin: 50px 0;
-}
 .top-story {
-    text-align: left;
+    margin-left: 3em;
+    margin-right: 3em;
 }
-.top-story__image {
-    width: 60vw;
-}
+
 /* main End */
+
+/* aside Start */
+.editors-picked {
+}
+/* aside End */
