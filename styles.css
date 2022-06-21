@@ -4,24 +4,29 @@
 body {
     margin: 0;
     padding: 0;
-    min-width: 100%;
-    height: 100;
+    width: 100vw;
 }
 
 .content-wrapper {
-    max-width: 500px;
+    max-width: 200px;
     padding: 20px;
     margin: 50px 0;
 }
 .top-story {
     text-align: left;
 }
-
+.top-story__image {
+    width: 60vw;
+}
 .menue {
-    min-width: 100vw;
     border-bottom: 0.2em solid rgb(224, 250, 247);
     display: flex;
     justify-content: space-between;
+}
+.menue__uls {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
 }
 main {
     margin: 2rem;
@@ -42,11 +47,4 @@ main {
 }
 .uls__ul {
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
-}
-.menue__uls {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
 }
